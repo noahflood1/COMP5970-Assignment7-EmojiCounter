@@ -69,18 +69,18 @@ struct ListItem: View {
                 .font(.title2)
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
-                        .stroke(Color.blue, lineWidth: 2)
+                        .stroke(Color.black, lineWidth: 2)
                 )
                 
                 Button("-") {
                     counter -= 1
                 }
-                .buttonStyle(.plain) 
+                .buttonStyle(.plain)
                 .padding(10)
                 .font(.title2)
                 .overlay(
                     RoundedRectangle(cornerRadius: 8)
-                        .stroke(Color.blue, lineWidth: 2)
+                        .stroke(Color.black, lineWidth: 2)
                 )
             }
         }
