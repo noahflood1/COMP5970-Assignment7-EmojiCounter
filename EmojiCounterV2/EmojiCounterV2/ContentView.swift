@@ -13,12 +13,22 @@ struct ContentView: View {
     }
 }
 
+struct FoodItem: Identifiable {
+    let id = UUID()
+    let emoji: String
+    var count: Int
+}
+
 struct MainStack: View {
     
-    @State private var foodItems: [String] = ["🍕", "🍔", "🍪", "🍉", "🍗"]
-    //@State var counterValues: [Int] = [0, 0, 0, 0, 0] // hard coding this seems like a bad idea...
-    // here is a way that requires less changing in thec ase that i want to add more emojis.
-    @State private var counters: [Int] = Array(repeating: 0, count: 5)
+    // uses a nice struct instead of two separate arrays defined in this view
+    @State private var foodItems: [FoodItem] = [
+        FoodItem(emoji: "🍕", count: 0),
+        FoodItem(emoji: "🍔", count: 0),
+        FoodItem(emoji: "🍪", count: 0),
+        FoodItem(emoji: "🍉", count: 0),
+        FoodItem(emoji: "🍗", count: 0)
+    ]
     
     var body: some View {
         VStack {
@@ -28,20 +38,10 @@ struct MainStack: View {
                 .padding(.top)
                 .multilineTextAlignment(.center) // make the title centered
             List {
-                // how I was doing it before
-                //                ForEach(foodItems, id: \.self) { food in
-                //                    ListItem(emoji: food)
-                //                }
-                //                .padding()
-                //            }
-                
-                // changed it to this
-                // \.1 means take the second val of the tuples returned by enumerated() meaning the emoji text
-                // and use that as the ID for each listItem value
-                ForEach(Array(foodItems.enumerated()), id: \.1) { index, food in
-                    ListItem(emoji: food, counter: $counters[index])
+                ForEach($foodItems) { $item in
+                    ListItem(emoji: item.emoji, counter: $item.count)
                 }
-                .padding()
+                //.padding()
             }
         }
     }
