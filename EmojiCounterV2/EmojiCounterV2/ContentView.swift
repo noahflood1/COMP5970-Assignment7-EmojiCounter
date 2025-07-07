@@ -64,6 +64,7 @@ struct ListItem: View {
                 Button("+") {
                     counter += 1
                 }
+                .buttonStyle(.plain)
                 .padding(10)
                 .font(.title2)
                 .overlay(
@@ -74,6 +75,7 @@ struct ListItem: View {
                 Button("-") {
                     counter -= 1
                 }
+                .buttonStyle(.plain) 
                 .padding(10)
                 .font(.title2)
                 .overlay(
