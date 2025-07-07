@@ -7,75 +7,52 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		F95FDABF2E1B7BDB005D682A /* PBXContainerItemProxy */ = {
+		F9F621482E2084DA00FD525C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F95FDAA02E1B7BDA005D682A /* Project object */;
+			containerPortal = F9F621322E2084D900FD525C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F95FDAA72E1B7BDA005D682A;
-			remoteInfo = EmojiCounter;
+			remoteGlobalIDString = F9F621392E2084D900FD525C;
+			remoteInfo = EmojiCounterV2;
 		};
-		F95FDAC92E1B7BDB005D682A /* PBXContainerItemProxy */ = {
+		F9F621522E2084DA00FD525C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F95FDAA02E1B7BDA005D682A /* Project object */;
+			containerPortal = F9F621322E2084D900FD525C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F95FDAA72E1B7BDA005D682A;
-			remoteInfo = EmojiCounter;
+			remoteGlobalIDString = F9F621392E2084D900FD525C;
+			remoteInfo = EmojiCounterV2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F95FDAA82E1B7BDA005D682A /* EmojiCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F95FDABE2E1B7BDB005D682A /* EmojiCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F95FDAC82E1B7BDB005D682A /* EmojiCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F6213A2E2084D900FD525C /* EmojiCounterV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCounterV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F621472E2084DA00FD525C /* EmojiCounterV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiCounterV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F621512E2084DA00FD525C /* EmojiCounterV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiCounterV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F95FDAD02E1B7BDB005D682A /* Exceptions for "EmojiCounter" folder in "EmojiCounter" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F95FDAA72E1B7BDA005D682A /* EmojiCounter */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F95FDAAA2E1B7BDA005D682A /* EmojiCounter */ = {
+		F9F6213C2E2084D900FD525C /* EmojiCounterV2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F95FDAD02E1B7BDB005D682A /* Exceptions for "EmojiCounter" folder in "EmojiCounter" target */,
-			);
-			path = EmojiCounter;
-			sourceTree = "<group>";
-		};
-		F95FDAC12E1B7BDB005D682A /* EmojiCounterTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EmojiCounterTests;
-			sourceTree = "<group>";
-		};
-		F95FDACB2E1B7BDB005D682A /* EmojiCounterUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EmojiCounterUITests;
+			path = EmojiCounterV2;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F95FDAA52E1B7BDA005D682A /* Frameworks */ = {
+		F9F621372E2084D900FD525C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDABB2E1B7BDB005D682A /* Frameworks */ = {
+		F9F621442E2084DA00FD525C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDAC52E1B7BDB005D682A /* Frameworks */ = {
+		F9F6214E2E2084DA00FD525C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F95FDA9F2E1B7BDA005D682A = {
+		F9F621312E2084D900FD525C = {
 			isa = PBXGroup;
 			children = (
-				F95FDAAA2E1B7BDA005D682A /* EmojiCounter */,
-				F95FDAC12E1B7BDB005D682A /* EmojiCounterTests */,
-				F95FDACB2E1B7BDB005D682A /* EmojiCounterUITests */,
-				F95FDAA92E1B7BDA005D682A /* Products */,
+				F9F6213C2E2084D900FD525C /* EmojiCounterV2 */,
+				F9F6213B2E2084D900FD525C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F95FDAA92E1B7BDA005D682A /* Products */ = {
+		F9F6213B2E2084D900FD525C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F95FDAA82E1B7BDA005D682A /* EmojiCounter.app */,
-				F95FDABE2E1B7BDB005D682A /* EmojiCounterTests.xctest */,
-				F95FDAC82E1B7BDB005D682A /* EmojiCounterUITests.xctest */,
+				F9F6213A2E2084D900FD525C /* EmojiCounterV2.app */,
+				F9F621472E2084DA00FD525C /* EmojiCounterV2Tests.xctest */,
+				F9F621512E2084DA00FD525C /* EmojiCounterV2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +83,128 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F95FDAA72E1B7BDA005D682A /* EmojiCounter */ = {
+		F9F621392E2084D900FD525C /* EmojiCounterV2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95FDAD12E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounter" */;
+			buildConfigurationList = F9F6215B2E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2" */;
 			buildPhases = (
-				F95FDAA42E1B7BDA005D682A /* Sources */,
-				F95FDAA52E1B7BDA005D682A /* Frameworks */,
-				F95FDAA62E1B7BDA005D682A /* Resources */,
+				F9F621362E2084D900FD525C /* Sources */,
+				F9F621372E2084D900FD525C /* Frameworks */,
+				F9F621382E2084D900FD525C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F95FDAAA2E1B7BDA005D682A /* EmojiCounter */,
+				F9F6213C2E2084D900FD525C /* EmojiCounterV2 */,
 			);
-			name = EmojiCounter;
+			name = EmojiCounterV2;
 			packageProductDependencies = (
 			);
-			productName = EmojiCounter;
-			productReference = F95FDAA82E1B7BDA005D682A /* EmojiCounter.app */;
+			productName = EmojiCounterV2;
+			productReference = F9F6213A2E2084D900FD525C /* EmojiCounterV2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F95FDABD2E1B7BDB005D682A /* EmojiCounterTests */ = {
+		F9F621462E2084DA00FD525C /* EmojiCounterV2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95FDAD62E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounterTests" */;
+			buildConfigurationList = F9F6215E2E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2Tests" */;
 			buildPhases = (
-				F95FDABA2E1B7BDB005D682A /* Sources */,
-				F95FDABB2E1B7BDB005D682A /* Frameworks */,
-				F95FDABC2E1B7BDB005D682A /* Resources */,
+				F9F621432E2084DA00FD525C /* Sources */,
+				F9F621442E2084DA00FD525C /* Frameworks */,
+				F9F621452E2084DA00FD525C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F95FDAC02E1B7BDB005D682A /* PBXTargetDependency */,
+				F9F621492E2084DA00FD525C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F95FDAC12E1B7BDB005D682A /* EmojiCounterTests */,
-			);
-			name = EmojiCounterTests;
+			name = EmojiCounterV2Tests;
 			packageProductDependencies = (
 			);
-			productName = EmojiCounterTests;
-			productReference = F95FDABE2E1B7BDB005D682A /* EmojiCounterTests.xctest */;
+			productName = EmojiCounterV2Tests;
+			productReference = F9F621472E2084DA00FD525C /* EmojiCounterV2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F95FDAC72E1B7BDB005D682A /* EmojiCounterUITests */ = {
+		F9F621502E2084DA00FD525C /* EmojiCounterV2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95FDAD92E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounterUITests" */;
+			buildConfigurationList = F9F621612E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2UITests" */;
 			buildPhases = (
-				F95FDAC42E1B7BDB005D682A /* Sources */,
-				F95FDAC52E1B7BDB005D682A /* Frameworks */,
-				F95FDAC62E1B7BDB005D682A /* Resources */,
+				F9F6214D2E2084DA00FD525C /* Sources */,
+				F9F6214E2E2084DA00FD525C /* Frameworks */,
+				F9F6214F2E2084DA00FD525C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F95FDACA2E1B7BDB005D682A /* PBXTargetDependency */,
+				F9F621532E2084DA00FD525C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F95FDACB2E1B7BDB005D682A /* EmojiCounterUITests */,
-			);
-			name = EmojiCounterUITests;
+			name = EmojiCounterV2UITests;
 			packageProductDependencies = (
 			);
-			productName = EmojiCounterUITests;
-			productReference = F95FDAC82E1B7BDB005D682A /* EmojiCounterUITests.xctest */;
+			productName = EmojiCounterV2UITests;
+			productReference = F9F621512E2084DA00FD525C /* EmojiCounterV2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F95FDAA02E1B7BDA005D682A /* Project object */ = {
+		F9F621322E2084D900FD525C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					F95FDAA72E1B7BDA005D682A = {
+					F9F621392E2084D900FD525C = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					F95FDABD2E1B7BDB005D682A = {
+					F9F621462E2084DA00FD525C = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F95FDAA72E1B7BDA005D682A;
+						TestTargetID = F9F621392E2084D900FD525C;
 					};
-					F95FDAC72E1B7BDB005D682A = {
+					F9F621502E2084DA00FD525C = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F95FDAA72E1B7BDA005D682A;
+						TestTargetID = F9F621392E2084D900FD525C;
 					};
 				};
 			};
-			buildConfigurationList = F95FDAA32E1B7BDA005D682A /* Build configuration list for PBXProject "EmojiCounter" */;
+			buildConfigurationList = F9F621352E2084D900FD525C /* Build configuration list for PBXProject "EmojiCounterV2" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F95FDA9F2E1B7BDA005D682A;
+			mainGroup = F9F621312E2084D900FD525C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F95FDAA92E1B7BDA005D682A /* Products */;
+			productRefGroup = F9F6213B2E2084D900FD525C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F95FDAA72E1B7BDA005D682A /* EmojiCounter */,
-				F95FDABD2E1B7BDB005D682A /* EmojiCounterTests */,
-				F95FDAC72E1B7BDB005D682A /* EmojiCounterUITests */,
+				F9F621392E2084D900FD525C /* EmojiCounterV2 */,
+				F9F621462E2084DA00FD525C /* EmojiCounterV2Tests */,
+				F9F621502E2084DA00FD525C /* EmojiCounterV2UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F95FDAA62E1B7BDA005D682A /* Resources */ = {
+		F9F621382E2084D900FD525C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDABC2E1B7BDB005D682A /* Resources */ = {
+		F9F621452E2084DA00FD525C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDAC62E1B7BDB005D682A /* Resources */ = {
+		F9F6214F2E2084DA00FD525C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +214,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F95FDAA42E1B7BDA005D682A /* Sources */ = {
+		F9F621362E2084D900FD525C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDABA2E1B7BDB005D682A /* Sources */ = {
+		F9F621432E2084DA00FD525C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95FDAC42E1B7BDB005D682A /* Sources */ = {
+		F9F6214D2E2084DA00FD525C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,76 +238,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F95FDAC02E1B7BDB005D682A /* PBXTargetDependency */ = {
+		F9F621492E2084DA00FD525C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95FDAA72E1B7BDA005D682A /* EmojiCounter */;
-			targetProxy = F95FDABF2E1B7BDB005D682A /* PBXContainerItemProxy */;
+			target = F9F621392E2084D900FD525C /* EmojiCounterV2 */;
+			targetProxy = F9F621482E2084DA00FD525C /* PBXContainerItemProxy */;
 		};
-		F95FDACA2E1B7BDB005D682A /* PBXTargetDependency */ = {
+		F9F621532E2084DA00FD525C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F95FDAA72E1B7BDA005D682A /* EmojiCounter */;
-			targetProxy = F95FDAC92E1B7BDB005D682A /* PBXContainerItemProxy */;
+			target = F9F621392E2084D900FD525C /* EmojiCounterV2 */;
+			targetProxy = F9F621522E2084DA00FD525C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F95FDAD22E1B7BDB005D682A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9A52QL8YCB;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmojiCounter/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F95FDAD32E1B7BDB005D682A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9A52QL8YCB;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EmojiCounter/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F95FDAD42E1B7BDB005D682A /* Debug */ = {
+		F9F621592E2084DA00FD525C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		F95FDAD52E1B7BDB005D682A /* Release */ = {
+		F9F6215A2E2084DA00FD525C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -459,62 +372,101 @@
 			};
 			name = Release;
 		};
-		F95FDAD72E1B7BDB005D682A /* Debug */ = {
+		F9F6215C2E2084DA00FD525C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9A52QL8YCB;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmojiCounter";
 			};
 			name = Debug;
 		};
-		F95FDAD82E1B7BDB005D682A /* Release */ = {
+		F9F6215D2E2084DA00FD525C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9A52QL8YCB;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmojiCounter";
 			};
 			name = Release;
 		};
-		F95FDADA2E1B7BDB005D682A /* Debug */ = {
+		F9F6215F2E2084DA00FD525C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9A52QL8YCB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EmojiCounter;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiCounterV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmojiCounterV2";
 			};
 			name = Debug;
 		};
-		F95FDADB2E1B7BDB005D682A /* Release */ = {
+		F9F621602E2084DA00FD525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A52QL8YCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiCounterV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmojiCounterV2";
+			};
+			name = Release;
+		};
+		F9F621622E2084DA00FD525C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -522,55 +474,72 @@
 				DEVELOPMENT_TEAM = 9A52QL8YCB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = temp.EmojiCounterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EmojiCounter;
+				TEST_TARGET_NAME = EmojiCounterV2;
+			};
+			name = Debug;
+		};
+		F9F621632E2084DA00FD525C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A52QL8YCB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noahflood.EmojiCounterV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmojiCounterV2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F95FDAA32E1B7BDA005D682A /* Build configuration list for PBXProject "EmojiCounter" */ = {
+		F9F621352E2084D900FD525C /* Build configuration list for PBXProject "EmojiCounterV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F95FDAD42E1B7BDB005D682A /* Debug */,
-				F95FDAD52E1B7BDB005D682A /* Release */,
+				F9F621592E2084DA00FD525C /* Debug */,
+				F9F6215A2E2084DA00FD525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95FDAD12E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounter" */ = {
+		F9F6215B2E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F95FDAD22E1B7BDB005D682A /* Debug */,
-				F95FDAD32E1B7BDB005D682A /* Release */,
+				F9F6215C2E2084DA00FD525C /* Debug */,
+				F9F6215D2E2084DA00FD525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95FDAD62E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounterTests" */ = {
+		F9F6215E2E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F95FDAD72E1B7BDB005D682A /* Debug */,
-				F95FDAD82E1B7BDB005D682A /* Release */,
+				F9F6215F2E2084DA00FD525C /* Debug */,
+				F9F621602E2084DA00FD525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95FDAD92E1B7BDB005D682A /* Build configuration list for PBXNativeTarget "EmojiCounterUITests" */ = {
+		F9F621612E2084DA00FD525C /* Build configuration list for PBXNativeTarget "EmojiCounterV2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F95FDADA2E1B7BDB005D682A /* Debug */,
-				F95FDADB2E1B7BDB005D682A /* Release */,
+				F9F621622E2084DA00FD525C /* Debug */,
+				F9F621632E2084DA00FD525C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F95FDAA02E1B7BDA005D682A /* Project object */;
+	rootObject = F9F621322E2084D900FD525C /* Project object */;
 }
